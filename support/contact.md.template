@@ -1,0 +1,61 @@
+# Contact us
+
+Use the form below for theme support. We typically reply within **1–2 business days** (Mon–Fri).
+
+<div class="support-contact-form">
+<form id="support-contact-form" data-forminit-id="__FORMINIT_FORM_ID__" method="post" action="#" enctype="multipart/form-data">
+<input type="hidden" name="fi-text-theme" value="Sheer">
+<div class="support-contact-form__field">
+<label for="support-name">Name</label>
+<input id="support-name" name="fi-text-name" type="text" required autocomplete="name">
+</div>
+<div class="support-contact-form__field">
+<label for="support-email">Email address</label>
+<input id="support-email" name="fi-sender-email" type="email" required autocomplete="email">
+</div>
+<div class="support-contact-form__field">
+<label for="support-store">Store URL</label>
+<input id="support-store" name="fi-url-store_url" type="url" required placeholder="https://your-store.myshopify.com" inputmode="url">
+</div>
+<div class="support-contact-form__field">
+<label for="support-subject">Subject</label>
+<input id="support-subject" name="fi-text-subject" type="text" required>
+</div>
+<div class="support-contact-form__field">
+<label for="support-message">Description of problem</label>
+<textarea id="support-message" name="fi-text-message" rows="8" required></textarea>
+</div>
+<div class="support-contact-form__field">
+<label for="support-attachment">Screenshot or file (optional)</label>
+<input id="support-attachment" name="fi-file-screenshot" type="file" accept="image/*,.pdf,.zip">
+</div>
+<button type="submit" class="support-contact-form__submit">Send message</button>
+</form>
+<p id="support-contact-form-status" class="support-contact-form__status" role="status" aria-live="polite"></p>
+<script src="../javascript/support-contact-form.js"></script>
+</div>
+
+## What to include
+
+1. **Shopify store URL** (e.g. `your-store.myshopify.com`)
+2. **Sheer theme version** — **Theme settings → Theme information**
+3. **Expected vs. actual behavior**
+4. **Steps to reproduce**
+5. **Screenshots or screen recording** (attach above — up to 25 MB per submission on Forminit Pro)
+6. **Custom code or apps** in use
+
+Do **not** send your Shopify admin password. We will never ask for it.
+
+## Email alternative
+
+If the form fails, email [stwhh572@gmail.com](mailto:stwhh572@gmail.com) with subject `[Sheer Theme]` and the details above.
+
+## What we can help with
+
+| In scope | Out of scope |
+|----------|----------------|
+| Sheer sections and theme settings | Custom development beyond theme scope |
+| Theme bugs | Shopify billing or account issues |
+| Filters, markets, navigation setup | Heavily modified code from other developers |
+
+For Shopify platform questions, use the [Shopify Help Center](https://help.shopify.com/).

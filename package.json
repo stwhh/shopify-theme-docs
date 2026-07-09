@@ -1,0 +1,15 @@
+{
+  "name": "Sheer-theme-docs",
+  "private": true,
+  "description": "Sheer Shopify theme — merchant documentation (HonKit / GitBook compatible)",
+  "scripts": {
+    "prebuild": "node scripts/build-contact-page.mjs",
+    "build": "honkit build && node scripts/inject-contact-script.mjs",
+    "serve": "node scripts/build-contact-page.mjs && honkit build && node scripts/inject-contact-script.mjs && node scripts/serve-with-contact.mjs",
+    "serve:local": "node scripts/build-contact-page.mjs && node scripts/serve-local.mjs",
+    "clean": "node -e \"require('fs').rmSync('_book',{recursive:true,force:true})\""
+  },
+  "devDependencies": {
+    "honkit": "^5.1.4"
+  }
+}
